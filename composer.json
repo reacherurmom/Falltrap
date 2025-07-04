@@ -1,0 +1,21 @@
+{
+  "name": "reacherurmom/falltrap",
+  "description": "FallTrap plugin for PocketMine 5",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "reacherurmom",
+      "email": "alexe001@hotmail.com"
+    }
+  ],
+  "scripts": {
+    "build-plugin": "@php -dphar.readonly=0 build-plugin.php"
+  },
+  "require": {
+    "muqsit/invmenu": "dev-pm5"
+  },
+  "require-dev": {
+    "pocketmine/pocketmine-mp": ">=5.30.1"
+  }
+}

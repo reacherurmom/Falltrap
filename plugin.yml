@@ -1,0 +1,9 @@
+name: FallTrap
+version: 0.0.1
+author: ReacherUrMom
+api: 5.0.0
+main: reacherurmom\falltrap\FallTrap
+permissions:
+  falltrap.permission:
+    description: FallTrap permission
+    default: op
