@@ -50,7 +50,7 @@ final class Builder {
 			(abs($this->secondCorner->z - $this->firstCorner->z) + 1)
 		);
 
-		$this->world->addParticle($this->center()->add(0, 1, 0), $this->particle);
+		$this->world->addParticle($this->center()->add(0, 2, 0), $this->particle);
 	}
 
 	public function getCurrentQueuePosition() : int {
@@ -115,7 +115,7 @@ final class Builder {
 		FallTrap::getInstance()->removeBuilder($this->player);
 
 		$this->particle->setInvisible();
-		$this->world->addParticle($this->center()->add(0, 1, 0), $this->particle);
+		$this->world->addParticle($this->center()->add(0, 2, 0), $this->particle);
 
 		if ($this->player->isOnline()) $this->player->sendMessage(TextFormat::colorize('&9[FallTrap] Your falltrap finished.'));
 	}
